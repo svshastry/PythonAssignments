@@ -7,3 +7,12 @@ Problem Statement: Write a Python program that:
 Expected Output:
 The program should output a greeting like:
 """
+
+
+a = input("Enter your first name: ", )
+b = input("Enter your last name: ", )
+c = a + " " + b
+d = "Hello, " + c + "! Welcome to our program."
+print(d)
+
+

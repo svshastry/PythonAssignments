@@ -10,7 +10,17 @@ o	Division
 3.  Displays the results of each operation on the screen.
  Expected Output:
 The output should include the result of each operation performed, for example:
-
+numeral format = int, float
 """
 
+a = input("Enter your first number: ", )
+b = input("Enter your second number: ", )
+c = float(a) + float(b)
+d = float(a) - float(b)
+e = float(a) * float(b)
+f = float(a) / float(b)
+print("Addition of", a, "and", b, "is", c)
+print("Subtraction of", a, "and", b, "is", d)
+print("Multiplication of", a, "and", b, "is", e)
+print("Division of", a, "and", b, "is", f)
 
