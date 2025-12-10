@@ -1,0 +1,250 @@
+Index: Assignment2_Task2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nTask 1: Check if a Number is Even or Odd\r\nProblem Statement: Write a Python program that:\r\n1. Takes an integer input from the user.\r\n2. Checks whether the number is even or odd using an if-else statement.\r\n3. Displays the result accordingly.\r\n\r\nExpected Output:\r\n\r\nThe program should return an output like:\r\nenter a number : 7\r\n7 is an odd number\r\nenter a number : 12\r\n12 is an even number.\r\n\"\"\"\r\n\r\n\r\na = input(\"Enter a first name: \", )\r\n\r\n\r\n\r\nc = a + \" \" + b\r\nd = \"Hello, \" + c + \"! Welcome to our program.\"\r\nprint(d)\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assignment2_Task2.py b/Assignment2_Task2.py
+--- a/Assignment2_Task2.py	(revision eba04d46cdb8e03f8953e8051d0b3598e79c4513)
++++ b/Assignment2_Task2.py	(date 1765402850363)
+@@ -1,26 +1,22 @@
+ """
+-Task 1: Check if a Number is Even or Odd
+-Problem Statement: Write a Python program that:
+-1. Takes an integer input from the user.
+-2. Checks whether the number is even or odd using an if-else statement.
+-3. Displays the result accordingly.
++Task 2: Check if a Number is Even or Odd
++Write a Python program that:
++1.   Uses a for loop to iterate over numbers from 1 to 50.
++2.   Calculates the sum of all integers in this range.
++3.   Displays the final sum.
++
++Expected output:
+ 
+-Expected Output:
++The sum of numbers from 1 to 50 is: 1275
+ 
+-The program should return an output like:
+-enter a number : 7
+-7 is an odd number
+-enter a number : 12
+-12 is an even number.
+ """
+ 
+ 
+-a = input("Enter a first name: ", )
+ 
+ 
+ 
+-c = a + " " + b
+-d = "Hello, " + c + "! Welcome to our program."
+-print(d)
++
++
++print("The sum of numebrs from 1 to 50 is: ", d)
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2ae7fe17-f133-4d9f-ac51-1ae2f684ce56\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Task2.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/PythonAssignments.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/PythonAssignments.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Task1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Task1.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"svshastry\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/svshastry/PythonAssignments.git\",\r\n    \"accountId\": \"46cb3716-0aa4-469e-b75b-1f61e278510b\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 3\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"35W8u5f7ELhZeILsLgQA58jVolt\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2ae7fe17-f133-4d9f-ac51-1ae2f684ce56\" name=\"Changes\" comment=\"\" />\r\n      <created>1763214686158</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1763214686158</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision eba04d46cdb8e03f8953e8051d0b3598e79c4513)
++++ b/.idea/workspace.xml	(date 1765402937330)
+@@ -4,11 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2ae7fe17-f133-4d9f-ac51-1ae2f684ce56" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Task2.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/PythonAssignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonAssignments.iml" afterDir="false" />
++    <list default="true" id="2ae7fe17-f133-4d9f-ac51-1ae2f684ce56" name="Changes" comment="Assignments">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task1.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assignment2_Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_Task1.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assignment2_Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_Task2.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,21 +24,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "svshastry"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;svshastry&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/svshastry/PythonAssignments.git",
+-    "accountId": "46cb3716-0aa4-469e-b75b-1f61e278510b"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/svshastry/PythonAssignments.git&quot;,
++    &quot;accountId&quot;: &quot;46cb3716-0aa4-469e-b75b-1f61e278510b&quot;
+   }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 3
+-}]]></component>
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 3
++}</component>
+   <component name="ProjectId" id="35W8u5f7ELhZeILsLgQA58jVolt" />
+   <component name="ProjectLevelVcsManager">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -51,11 +50,71 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "Python.Task1.executor": "Run",
++    "Python.Task2.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master"
++    "git-widget-placeholder": "master",
++    "last_opened_file_path": "C:/Users/M V Subramanian/PycharmProjects/PythonAssignments"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\M V Subramanian\PycharmProjects\PythonAssignments" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Python.Assignment1_Task2">
++    <configuration name="Assignment1_Task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="PythonAssignments" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="C:\Users\M V Subramanian\PycharmProjects\PythonAssignments\Assignment1_Task1.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Assignment1_Task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="PythonAssignments" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="C:\Users\M V Subramanian\PycharmProjects\PythonAssignments\Assignment1_Task2.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.Assignment1_Task2" />
++        <item itemvalue="Python.Assignment1_Task1" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -71,6 +130,67 @@
+       <option name="presentableId" value="Default" />
+       <updated>1763214686158</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763215090230</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1763215090230</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763215098096</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1763215098096</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763215108068</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1763215108068</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763234111213</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1763234111213</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763234647294</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1763234647294</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1763561691720</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1763561691720</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Assignments">
++      <option name="closed" value="true" />
++      <created>1765402696324</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1765402696324</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Assignments" />
++    <option name="LAST_COMMIT_MESSAGE" value="Assignments" />
++  </component>
+ </project>
+\ No newline at end of file
