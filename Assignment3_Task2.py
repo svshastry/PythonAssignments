@@ -16,7 +16,6 @@ Sine = 0.13232142626552626
 
 """
 
-
 import math
 
 # Enter the number
